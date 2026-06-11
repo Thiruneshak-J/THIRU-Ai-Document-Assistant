@@ -3,8 +3,8 @@ import requests
 from reportlab.platypus import (SimpleDocTemplate,Paragraph,Spacer)
 from reportlab.lib.styles import (getSampleStyleSheet)
 import tempfile
-
-API_URL = "http://127.0.0.1:8000"
+API_URL = "https://thiru-ai-document-assistant-production.up.railway.app/"
+#API_URL = "http://127.0.0.1:8000"
 
 def create_chat_pdf(messages):
 
